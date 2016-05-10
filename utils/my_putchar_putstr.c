@@ -1,11 +1,6 @@
 /*
-** my_putchar_putstr.c for my_putchar_putstr in /home/lara_m/Useful_stuff/Mini_programmes
-**
-** Made by Merwan Lara
-** Login   <lara_m@epitech.net>
-**
-** Started on  Sun Dec 13 11:39:36 2015 Merwan Lara
-** Last update Mon May  9 20:32:16 2016 Merwan
+** putchar prints a character on the standard output, putstr a string.
+** _e version of those functions prints a character/string on the error output.
 */
 
 #include <unistd.h>

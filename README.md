@@ -8,3 +8,11 @@ This still is a WIP.
 - Choose the delay you want for the hints ! Or no hints at all..?
 - Already existing databases in English and in French !
 - This bot is written in C, so easy for beginners to understand.
+
+# Usage
+Assuming you use Linux :
+- Open a terminal within the repo.
+- 'make'
+- './quizzo fr' or './quizzo en'
+
+You can use './quizzo -h' or './quizzo --help' for help.

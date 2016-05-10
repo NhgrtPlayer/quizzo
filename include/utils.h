@@ -1,14 +1,4 @@
 /*
-** utils.h for Quizzo in /home/player/Programmes perso/Quizz
-**
-** Made by Merwan
-** Login   <player@epitech.net>
-**
-** Started on  Mon May  9 18:22:41 2016 Merwan
-** Last update Mon May  9 20:38:57 2016 Merwan
-*/
-
-/*
 ** Contains prototypes for all utility functions
 */
 #ifndef _UTILS_H_

@@ -1,15 +1,8 @@
-/*
-** my_put_nbr.c for Quizzo in /home/player/Programmes perso/Quizzo/utils/
-**
-** Made by Merwan Lara
-** Login   <lara_m@epitech.net>
-**
-** Started on  Tue May 10 11:37:02 2016 Merwan Lara
-** Last update Tue May 10 11:37:05 2016 Merwan Lara
-*/
-
 #include "utils.h"
 
+/*
+** Prints the number you pass as parameter.
+*/
 int	my_put_nbr(int nb)
 {
   if (nb < 0)

@@ -1,13 +1,3 @@
-##
-## Makefile for quizzo in /home/player/Programmes perso/Quizz
-## 
-## Made by Merwan
-## Login   <player@epitech.net>
-## 
-## Started on  Mon May  9 17:57:07 2016 Merwan
-## Last update Mon May  9 20:49:16 2016 Merwan
-##
-
 CC	= gcc
 
 RM	= rm -f
@@ -27,7 +17,7 @@ OBJS	= $(SRCS:.c=.o)
 
 CFLAGS	= -W -Wall -Werror -ansi -pedantic -I include
 
-LDFLAGS	= 
+LDFLAGS	=
 
 all: $(NAME)
 

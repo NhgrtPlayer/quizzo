@@ -1,15 +1,11 @@
-/*
-** get_next_line.c for Quizzo in /home/player/Programmes perso/Quizzo/utils/
-**
-** Made by Merwan Lara
-** Login   <lara_m@epitech.net>
-**
-** Started on  Tue May 10 11:36:52 2016 Merwan Lara
-** Last update Tue May 10 11:36:57 2016 Merwan Lara
-*/
-
 #include <stdlib.h>
 #include <unistd.h>
+
+/*
+** get_next_line allows you to return the next line of a file descriptor.
+** Replaces the last '\n' by a '\0'.
+** It can read the standard input if you pass 0 to it.
+*/
 
 char	*my_realloc_plus_1_into_copy(char *str)
 {

@@ -1,13 +1,3 @@
-/*
-** quizz_support.c for Quizzo in /home/player/Programmes perso/Quizzo/
-**
-** Made by Merwan Lara
-** Login   <lara_m@epitech.net>
-**
-** Started on  Tue May 10 11:20:47 2016 Merwan Lara
-** Last update Tue May 10 11:20:49 2016 Merwan Lara
-*/
-
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>

@@ -1,13 +1,3 @@
-/*
-** quizz.h for Quizzo in /home/player/Programmes perso/Quizz
-**
-** Made by Merwan
-** Login   <player@epitech.net>
-**
-** Started on  Mon May  9 18:21:55 2016 Merwan
-** Last update Tue May 10 11:48:20 2016 Merwan Lara
-*/
-
 #ifndef _QUIZZ_H_
 # define _QUIZZ_H_
 

@@ -7,10 +7,10 @@
 ** SA = Single Answer
 */
 
-[Questions-EN]
+[Questions]
 Q1.SA:"Ping..?"
 Q2.SA:"What is the capital city of France ?"
 
-[Answers-EN]
+[Answers]
 A1:"Pong."
 A2:"Paris."

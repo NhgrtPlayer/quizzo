@@ -16,7 +16,7 @@
 ** A = Réponse
 */
 
-[Questions-FR]
+[Questions]
 [Categories]
 [[Video Games]]
 Q3.SA.3:"Combien de champions y a-t-il actuellement dans LoL ? (En comptant Taliyah, la dernière championne qui a été annoncée)"
@@ -33,13 +33,13 @@ Q2.SA.1:"Quel est la capital de la France ?"
 [[Other]]
 Q1.SA.0:"Ping..?"
 
-[Hint-FR]
+[Hints]
 H1:"C'est un sport où les japonais sont très fort, basé sur le Tennis."
 H2:"Ca commence par un 'P' et fini par un 'S' et est connue comme étant l'une des plus belles villes au monde."
 H3:"Jayce, sorti en 2014, était le 100e."
 H5:"Elle est canadienne et a gagné le Grammy Award de la chanson de l'année."
 
-[Answers-FR]
+[Answers]
 A1:"Pong."
 A2:"Paris."
 A3:"131."

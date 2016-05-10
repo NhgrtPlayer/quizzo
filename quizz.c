@@ -1,11 +1,31 @@
-/*
-** quizz.c for Quizzo in /home/player/Programmes perso/Quizzo/
-**
-** Made by Merwan Lara
-** Login   <lara_m@epitech.net>
-**
-** Started on  Tue May 10 11:20:53 2016 Merwan Lara
-** Last update Tue May 10 11:20:55 2016 Merwan Lara
-*/
-
 #include "quizz.h"
+
+int	get_this_part(const char *part, const int file)
+{
+  char	*str;
+
+  while ((str = get_next_line(file)))
+    {
+      if (my_strcmp(str, part) == 1)
+	{
+	  free(str);
+	  return (1);
+	}
+      free(str);
+    }
+  return (0);
+}
+
+int	how_many_questions(const int fd)
+{
+  int	nb;
+
+  nb = 0;
+  get_this_part("[Answers]", fd);
+  while ((str = get_next_line(file)))
+    {
+      nb++;
+      free(str);
+    }
+  return (nb);
+}

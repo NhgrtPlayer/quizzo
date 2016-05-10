@@ -1,15 +1,21 @@
-/*
-** main.c for Quizzo in /home/player/Programmes perso/Quizzo/
-**
-** Made by Merwan Lara
-** Login   <lara_m@epitech.net>
-**
-** Started on  Tue May 10 11:20:14 2016 Merwan Lara
-** Last update Tue May 10 11:20:32 2016 Merwan Lara
-*/
-
-
 #include "quizz.h"
+
+int	load_language_dtb(const lang language)
+{
+  int	fd;
+
+  if (language == ENGLISH)
+    {
+      if ((fd = open(BDD_EN_PATH, O_RDONLY)) < 0)
+	return (my_putstr_e(ERR_OPEN_FAILED_EN));
+    }
+  else if (language == FRENCH)
+    {
+      if ((fd = open(BDD_FR_PATH, O_RDONLY)) < 0)
+	return (my_putstr_e(ERR_OPEN_FAILED_FR));
+    }
+  return (fd);
+}
 
 int	main(int ac, char **av)
 {
@@ -24,19 +30,12 @@ int	main(int ac, char **av)
 	language = ENGLISH;
       else if (my_strcmp(av[1], "fr") == 1)
 	language = FRENCH;
+      else
+	return (error_disp(av[0], 0));
     }
   else
     return (error_disp(av[0], 0));
-  if (language == ENGLISH)
-    {
-      if ((dtb = open(BDD_EN_PATH, O_RDONLY)) < 0)
-	return (my_putstr_e(ERR_OPEN_FAILED_EN));
-    }
-  else if (language == FRENCH)
-    {
-      if ((dtb = open(BDD_FR_PATH, O_RDONLY)) < 0)
-	return (my_putstr_e(ERR_OPEN_FAILED_FR));
-    }
+  dtb = load_language_dtb(language);
   close(dtb);
   return (0);
 }

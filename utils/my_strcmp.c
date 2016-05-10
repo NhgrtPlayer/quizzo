@@ -1,11 +1,5 @@
 /*
-** my_strcmp.c for Quizzo in /home/player/Programmes perso/Quizzo/utils/
-**
-** Made by Merwan Lara
-** Login   <lara_m@epitech.net>
-**
-** Started on  Tue May 10 11:37:14 2016 Merwan Lara
-** Last update Tue May 10 11:37:17 2016 Merwan Lara
+** Returns 1 if both strings are exactly identical, else returns 0.
 */
 
 int	my_strcmp(char *str, char *str2)
