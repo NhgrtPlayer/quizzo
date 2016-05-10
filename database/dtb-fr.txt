@@ -1,0 +1,47 @@
+/* ----FR----
+** Q = Questions
+** Les questions sont notés de cette façon : 'QY.Type.Difficulté:"Question"'
+** Y est le numéro de la question, servant à retrouver la réponse
+** correspondante. Les Types de questions sont indiqués ci-dessous.
+** --Types--
+** SA = Réponse Unique
+** QCM = Question à Choix Multiples
+** (toutes les possibiltiés sont attendues dans ce fichier)
+** APP = Approximation, si les joueurs ont la réponse +- 5, c'est bon
+** Réponse exacte = point bonus
+** La difficulté peut aller de 0 à 10.
+** H = Indices
+** Les indices sont du texte qui apparait après un durée déterminée (en secondes).
+** Vous pouvez modifer les indices données dans ce fichier.
+** A = Réponse
+*/
+
+[Questions-FR]
+[Categories]
+[[Video Games]]
+Q3.SA.3:"Combien de champions y a-t-il actuellement dans LoL ? (En comptant Taliyah, la dernière championne qui a été annoncée)"
+[[Films]]
+Q4.QCM.3:"Quel(s) film(s) n'est(sont) pas réalisé(s) par Q.Tarantino ?"
+Q4-A:"Kill Bill"
+Q4-B:"Inglorious Bastard"
+Q4-C:"Django Unchained"
+Q4-D:"Inception"
+[[Musics]]
+Q5.SA.3:"Qui a composé 'Call Me Maybe' ?"
+[[General Culture]]
+Q2.SA.1:"Quel est la capital de la France ?"
+[[Other]]
+Q1.SA.0:"Ping..?"
+
+[Hint-FR]
+H1:"C'est un sport où les japonais sont très fort, basé sur le Tennis."
+H2:"Ca commence par un 'P' et fini par un 'S' et est connue comme étant l'une des plus belles villes au monde."
+H3:"Jayce, sorti en 2014, était le 100e."
+H5:"Elle est canadienne et a gagné le Grammy Award de la chanson de l'année."
+
+[Answers-FR]
+A1:"Pong."
+A2:"Paris."
+A3:"131."
+A4-D:"Inception"
+A5:"Carly Rae Jepsen"

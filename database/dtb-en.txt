@@ -1,0 +1,16 @@
+/* ----EN----
+** Q = Questions
+** H = Hint
+** Hints are text that appear on the screen after a set delay, you can modify
+** the hint in this file or the delay while configuring the quiz
+** A = Answser
+** SA = Single Answer
+*/
+
+[Questions-EN]
+Q1.SA:"Ping..?"
+Q2.SA:"What is the capital city of France ?"
+
+[Answers-EN]
+A1:"Pong."
+A2:"Paris."
